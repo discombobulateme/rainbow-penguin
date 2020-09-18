@@ -1,5 +1,7 @@
 const colors = require('colors');
 
+colors.enable();
+
 const messages = require('./messages.json');
 
 function rainbowPenguin() {
