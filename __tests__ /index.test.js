@@ -15,6 +15,6 @@ it('should log a message on every timer tick', () => {
 it('should log the test message', () => {
   const restoreConsole = mockConsole();
   rainbowPenguin();
-  expect(console.log).toHaveBeenCalledWith('test message');
+  expect(console.log).toHaveBeenCalledWith('*******************\n🌈 🐧: test message\n*******************');
   restoreConsole();
 });
