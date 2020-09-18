@@ -5,8 +5,8 @@ colors.enable();
 const messages = require('./messages.json');
 
 function rainbowPenguin() {
-  let min = 5;
-  let max = 30;
+  const min = 2;
+  const max = 5;
 
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
 
