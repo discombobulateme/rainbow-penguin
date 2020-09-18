@@ -2,7 +2,7 @@
 
 An npm library to send motivational messages to developers
 
-![Library demo running in Docker](https://user-images.githubusercontent.com/7980624/93634676-477c8980-f9f1-11ea-8750-23f5a3c5705c.gif)
+![Library demo running in Docker](https://user-images.githubusercontent.com/7980624/93638988-924dcf80-f9f8-11ea-91b2-f1b9c7438fca.gif)
 
 ## Why?
 
