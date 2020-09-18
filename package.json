@@ -1,0 +1,32 @@
+{
+  "name": "rainbow-penguin",
+  "version": "1.0.0",
+  "description": "A npm library to send motivational messages to developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discombobulateme/rainbow-penguin.git"
+  },
+  "keywords": [
+    "happy",
+    "colorful",
+    "dev",
+    "terminal",
+    "motivational"
+  ],
+  "author": "Paloma Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discombobulateme/rainbow-penguin/issues"
+  },
+  "homepage": "https://github.com/discombobulateme/rainbow-penguin#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
