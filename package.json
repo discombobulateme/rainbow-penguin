@@ -4,7 +4,7 @@
   "description": "A npm library to send motivational messages to developers",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
