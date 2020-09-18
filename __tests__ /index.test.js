@@ -1,9 +1,9 @@
-const rainbowPenguin = require("../index");
+const rainbowPenguin = require('../index');
 jest.useFakeTimers();
 
 // test random number
 // expect.any(constructor) for Math.random
-test("randocall calls its callback with a number", () => {
+test('randocall calls its callback with a number', () => {
   const mock = jest.fn();
   randomTime(mock);
   expect(mock).toBeCalledWith(expect.any(Number));

@@ -4,7 +4,8 @@
   "description": "A npm library to send motivational messages to developers",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test-coverage": "jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
   },
   "homepage": "https://github.com/discombobulateme/rainbow-penguin#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "coverage": "^0.4.1"
   },
   "devDependencies": {
     "jest": "^26.4.2"
