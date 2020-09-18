@@ -10,9 +10,10 @@ function rainbowPenguin() {
 
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
 
-  console.log(colors.rainbow(`${randomMessage}`));
+  const asterisks = '*'.repeat(randomMessage.length).rainbow;
+  console.log(`${asterisks}\n${randomMessage.bold}\n${asterisks}`);
 
-  let randomTime = Math.floor((Math.random() * (max - min + 1) + min) * 1000 * 60);
+  const randomTime = Math.floor((Math.random() * (max - min + 1) + min) * 1000);
 
   setTimeout(rainbowPenguin, randomTime);
 }
