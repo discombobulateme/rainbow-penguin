@@ -1,6 +1,6 @@
 {
   "name": "rainbow-penguin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A npm library to send motivational messages to developers",
   "main": "index.js",
   "scripts": {
