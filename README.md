@@ -6,25 +6,25 @@ An npm library to send motivational messages to developers
 
 ## Why?
 
-Code is a stressful and exhausting task.
+Coding is a stressful and exhausting task.
 
-The nature of the labor requires that we use all our intellectual capacity.
+The nature of the work requires that we use all our intellectual capacity.
 
 We are constantly challenged, and sometimes we feel lonely.
 
-How cool would it be if your terminal reminded you how important you are? And remind about how beautiful is the work you are doing?
+How cool would it be if your terminal reminded you how important you are? And remind you about how beautiful the work is that you are doing?
 
 Coding is a difficult task and we deserve to be recognized.
 
-Rainbow Penguin is based on the Motivational Penguin gifs and sends you messages to bring a smile upon your face... just to improve your day a little bit 🙃 🌈
+Rainbow Penguin is based on the Motivational Penguin gifs and sends you messages to put a smile upon/bring a smile to your face... just to improve your day a little bit 🙃 🌈
 
 ## What is it?
 
 It is a simple library that will send you messages in a random interval between 5 and 25 minutes.
 
-The messages will be sent in your terminal.
+The messages will be sent to your terminal.
 
-Below we indicate how to ensure that it is only used in the development environment.
+Below we indicate how to ensure that it is only used in a development environment.
 
 # Installation
 
@@ -34,7 +34,7 @@ $ npm i rainbow-penguin
 
 # Usage
 
-As most of the nom libraries, you just need to import it in a file
+As with most npm libraries, you just need to import it in a file
 
 ```js
 require('rainbow-penguin')();
@@ -54,7 +54,7 @@ if (process.env.NODE_ENV == 'development') rainbowPenguin();
 
 # Custom
 
-This is a work in progress, soon I hope to be able to add this feature. Or, if you want to collaborate, it's a library open to collaboration!
+This is a work in progress; soon I hope to be able to add to this feature. Or, if you want to collaborate, it's a library open to collaboration!
 
 # LICENSE
 
