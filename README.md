@@ -16,7 +16,7 @@ How cool would it be if your terminal reminded you how important you are? And re
 
 Coding is a difficult task and we deserve to be recognized.
 
-Rainbow Penguin is based on the Motivational Penguin gifs and sends you messages to put a smile upon/bring a smile to your face... just to improve your day a little bit 🙃 🌈
+Rainbow Penguin is based on the Motivational Penguin gifs and sends you messages to put a smile upon your face... just to improve your day a little bit 🙃 🌈
 
 ## What is it?
 
